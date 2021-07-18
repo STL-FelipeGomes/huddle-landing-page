@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --white: white;
+  --violet: hsl(257, 40%, 49%);
+  --soft-magenta: hsl(300, 69%, 71%);
+}
+
+/*
+    Formatando o contaiiner e o body
+*/
+
+body {
+  background: url(./images/bg-mobile.svg) no-repeat, var(--violet);
+  background-size: 100% auto;
+  text-align: center;
+}
+
+#container {
+  color: var(--white);
+  margin: 10%;
+}
+
+/*
+    Formatando a logo
+*/
+
+#container #header-logo {
+  margin-bottom: 50px;
+}
+
+#container #header-logo img {
+  width: 200px;
+}
+
+/*
+    Formatando o conteúdo
+*/
+
+#content #section-img img {
+  height: 14rem;
+}
+
+#content #section-text {
+  margin: 50px 0px;
+}
+
+#content #section-text #header-h1 {
+  font: 600 16px 'Poppins';
+}
+
+#content #section-text .text {
+  font: 400 16px 'Open Sans';
+  margin: 15px 0px;
+}
+
+#content #section-text .button {
+  font: 600 16px 'Poppins';
+  border: none;
+  padding: 15px 80px;
+  border-radius: 360px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.281);
+  margin: 12px;
+  color: var(--violet);
+  transition: 0.2s;
+}
+
+#content #section-text .button:hover {
+  background-color: var(--soft-magenta);
+  color: var(--white);
+}
+
+/* Formatando o footer*/
+
+footer #content-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer #content-footer .link {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid var(--white);
+  border-radius: 360px;
+  width: 5px;
+  height: 5px;
+  padding: 15px;
+  transition: 0.2s;
+}
+
+footer #content-footer .link-central {
+  margin: 15px;
+}
+
+/*
+    Formatando links
+*/
+
+.link a {
+  text-decoration: none;
+  color: var(--white);
+}
+
+footer #content-footer .link:hover {
+  background-color: var(--soft-magenta);
+}
+
+@media (min-width: 1200px) {
+  body {
+    text-align: left;
+    background: url(./images/bg-desktop.svg) no-repeat var(--violet);
+    background-size: cover;
+  }
+
+  #container {
+    margin: 2% 5%;
+  }
+
+  #container #header-logo {
+    margin-bottom: 100px;
+  }
+
+  #content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #content #section-img img {
+    height: 600px;
+  }
+
+  #content #section-text {
+    margin-left: 50px;
+  }
+
+  #content #section-text #header-h1 {
+    font-size: 2rem;
+    max-width: 600px;
+  }
+
+  #content #section-text .text {
+    font-size: 1.5rem;
+    max-width: 690px;
+  }
+
+  footer {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
