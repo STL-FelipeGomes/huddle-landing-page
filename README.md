@@ -17,7 +17,7 @@
     &nbsp;&nbsp;&nbsp;&nbsp;➜ Challenge link: <a href="https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0"><strong>Huddle landing page with a single introductory section</strong></a>
   </p>
   <p>
-    &nbsp;&nbsp;&nbsp;&nbsp;➜ Result: <a href="https://stl-felipegomes.github.io/huddle-landing-page/"><strong>My Profile Card Component</strong></a>
+    &nbsp;&nbsp;&nbsp;&nbsp;➜ Result: <a href="https://stl-felipegomes.github.io/huddle-landing-page/"><strong>My Huddle Landing Page</strong></a>
   </p>
 </main>
 <br>
